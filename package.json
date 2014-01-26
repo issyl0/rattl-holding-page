@@ -1,0 +1,17 @@
+{
+  "name": "bootbuckle",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-csscomb": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-imagemin": "*",
+    "grunt-contrib-jade": "*"
+  }
+}

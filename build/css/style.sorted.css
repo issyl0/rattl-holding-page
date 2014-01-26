@@ -1,0 +1,137 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+{
+    font: inherit;
+    font-size: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+{
+    display: block;
+}
+body
+{
+    line-height: 1;
+}
+ol,ul
+{
+    list-style: none;
+}
+blockquote,q
+{
+    quotes: none;
+}
+blockquote:before,blockquote:after,q:before,q:after
+{
+    content: '';
+    content: none;
+}
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+::selection
+{
+    color: white;
+    background-color: #2f6a68;
+}
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+p
+{
+    margin-bottom: 1em;
+}
+a
+{
+    text-decoration: none;
+}
+*
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body
+{
+    color: white;
+    background-color: #4fb0ae;
+}
+body .container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 600px;
+    height: 385px;
+    margin-top: -192.5px;
+    margin-left: -300px;
+}
+img
+{
+    width: 80%;
+    margin-left: 10%;
+}
+h2
+{
+    font-family: 'Bitter', serif;
+    font-size: 1.5em;
+
+    margin: 0 0 1em 0;
+
+    text-align: center;
+}
+p
+{
+    font-size: 1.15em;
+
+    text-align: center;
+}
+small
+{
+    font-family: 'Bitter', serif;
+    font-size: .85em;
+
+    display: block;
+
+    text-align: center;
+}
+small a
+{
+    padding: 3px 2px;
+
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+small a:hover
+{
+    -webkit-transition: all .15s ease-out 0;
+       -moz-transition: all .15s ease-out 0;
+            transition: all .15s ease-out 0;
+
+    border-bottom: 2px solid #2f6a68;
+}
+@media screen and (max-width: 600px)
+{
+    body > .container
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        width: 90%;
+        margin-top: 100px;
+        margin-left: 5%;
+    }
+}
